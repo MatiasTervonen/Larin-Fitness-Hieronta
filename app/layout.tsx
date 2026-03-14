@@ -15,7 +15,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Larin Fitness ja Hieronta",
-  description: "Larin Fitness ja Hieronta",
+  description: "Hoitavaa hierontaa Lohjan keskustassa",
+  openGraph: {
+    title: "Larin Fitness ja Hieronta",
+    description: "Hoitavaa hierontaa Lohjan keskustassa",
+    images: ["/hero.webp"],
+  },
 };
 
 export default function RootLayout({
