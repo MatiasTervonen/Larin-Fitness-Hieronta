@@ -14,11 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Larin Fitness ja Hieronta",
-  description: "Hoitavaa hierontaa Lohjan keskustassa",
+  title: "Larin Fitness ja Hieronta – Hoitavaa hierontaa Lohjassa",
+  description:
+    "Larin Fitness ja Hieronta tarjoaa hoitavaa hierontaa Lohjan keskustassa. Suorituspalautus, täsmäkäsittely ja syväkäsittely – varaa aikasi nyt.",
   openGraph: {
-    title: "Larin Fitness ja Hieronta",
-    description: "Hoitavaa hierontaa Lohjan keskustassa",
     images: ["/hero.webp"],
   },
 };
